@@ -21,28 +21,37 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 40px;
+    padding: 10px;
+    color: white;
+
+    
 
 }
 
 .logo img{
-    width: 60px;
+    width: 30px;
+    
 }
 
-nav ul{
+.menu ul{
     display: flex;
     list-style-type: none;
     gap: 25px;
 
 }
 
-nav a{
+.menu a{
     color: white;
     text-decoration: none;
     font-weight: bold;
 
 }
 
+.menu-toggle{
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
 .hero{
     background-color: #3B3936;
     color: white;
@@ -52,8 +61,10 @@ nav a{
     padding: 60px;
 }
 
-.hero-img{
-    width: 200px;
+.botoes{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .btn1{
@@ -62,6 +73,7 @@ nav a{
     border: none;
     padding: 10px 20px;
     margin-top: 10px;
+    border-radius: 5px;
 }
 
 .btn2{
@@ -70,6 +82,12 @@ nav a{
     border: none;
     padding: 10px 20px;
     margin-top: 10px;
+    border-radius: 5px;
+}
+
+.hero-img{
+    width: 200px;
+    
 }
 
 .recursos{
@@ -129,7 +147,7 @@ footer{
     background-color: #486966;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 
     display: flex;
     justify-content: space-between;

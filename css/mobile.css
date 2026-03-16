@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+header{
+    
+    flex-direction: row;
+    text-align: center;
+    padding: 5px;
+}
+
+.menu{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    background-color: #BD2A2E;
+}
+.menu ul{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu.active{
+    display: block;
+}
+
+.menu-toggle{
+    display: block;
+    font-size: 1.4em;
+    color: white;
+    
+}
+.hero{
+    flex-flow: column wrap;
+    text-align: center;
+    padding: 40px 20px;
+    
+}
+.botoes{
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    gap: 8px;
+    
+}
+
+.btn1, .btn2{
+    width: 30%;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    
+}
+.hero-img{
+    width: 150px;
+    margin-top: 20px;
+   
+}
+
+.recursos{
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    width: 80%;
+}
+
+.acess-box{
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.item{
+    width: 80%;
+}
+
+.depoimentos-box{
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.depo{
+    width: 80%;
+}
+
+footer{
+    font-size: 14px;
+}
